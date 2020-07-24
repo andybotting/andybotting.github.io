@@ -4,7 +4,6 @@ title: Back from Thailand.. only a few dramas
 date: 2008-11-26T12:47:02+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=258
 permalink: /back-from-thailand
 categories:
   - Personal

@@ -4,7 +4,6 @@ title: AFL plugins for XBMC
 date: 2012-04-08T07:31:07+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=439
 permalink: /afl-plugins-for-xbmc
 aktt_notify_twitter:
   - 'no'
@@ -20,7 +19,7 @@ Whilst being in London, it&#8217;s been hard to get my AFL fix. So to keep up wi
 You can browse all the latest videos from the AFL web site, including match replays, interviews and highlights.
 
 <div id="attachment_442" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-video-plugin.png"><img class="size-medium wp-image-442 " title="xbmc-afl-video-plugin" alt="" src="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-video-plugin-300x182.png" width="300" height="182" srcset="http://www.andybotting.com/wp-content/uploads/xbmc-afl-video-plugin-300x182.png 300w, http://www.andybotting.com/wp-content/uploads/xbmc-afl-video-plugin.png 697w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/xbmc-afl-video-plugin.png"><img class="size-medium wp-image-442 " title="xbmc-afl-video-plugin" alt="" src="/assets/images/xbmc-afl-video-plugin-300x182.png" width="300" height="182" srcset="/assets/images/xbmc-afl-video-plugin-300x182.png 300w, /assets/images/xbmc-afl-video-plugin.png 697w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     AFL Video plugin
@@ -30,7 +29,7 @@ You can browse all the latest videos from the AFL web site, including match repl
 You have a bunch of channels to choose from, including a team channel. The team channel will list the videos specific to your club.
 
 <div id="attachment_441" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-video-list.png"><img class="size-medium wp-image-441  " title="xbmc-afl-video-list" alt="" src="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-video-list-300x182.png" width="300" height="182" srcset="http://www.andybotting.com/wp-content/uploads/xbmc-afl-video-list-300x182.png 300w, http://www.andybotting.com/wp-content/uploads/xbmc-afl-video-list.png 699w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/xbmc-afl-video-list.png"><img class="size-medium wp-image-441  " title="xbmc-afl-video-list" alt="" src="/assets/images/xbmc-afl-video-list-300x182.png" width="300" height="182" srcset="/assets/images/xbmc-afl-video-list-300x182.png 300w, /assets/images/xbmc-afl-video-list.png 699w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Cats TV
@@ -44,7 +43,7 @@ Match replays are usually available 12-24 hours after the match has been played.
 Unfortunately, you can&#8217;t watch the games live without some sort of paid subscription &#8211; so the radio streams are the next best thing.
 
 <div id="attachment_440" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-radio-list.png"><img class="size-medium wp-image-440 " title="xbmc-afl-radio-list" alt="" src="http://www.andybotting.com/wordpress/wp-content/uploads/xbmc-afl-radio-list-300x182.png" width="300" height="182" srcset="http://www.andybotting.com/wp-content/uploads/xbmc-afl-radio-list-300x182.png 300w, http://www.andybotting.com/wp-content/uploads/xbmc-afl-radio-list.png 696w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/assets/images/xbmc-afl-radio-list.png"><img class="size-medium wp-image-440 " title="xbmc-afl-radio-list" alt="" src="/assets/images/xbmc-afl-radio-list-300x182.png" width="300" height="182" srcset="/assets/images/xbmc-afl-radio-list-300x182.png 300w, /assets/images/xbmc-afl-radio-list.png 696w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     AFL Radio

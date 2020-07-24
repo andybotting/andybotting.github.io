@@ -4,7 +4,6 @@ title: Thailand Trip (part 3)
 date: 2008-11-29T06:25:31+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=266
 permalink: /thailand-trip-part-3
 categories:
   - Personal

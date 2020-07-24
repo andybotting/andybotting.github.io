@@ -4,7 +4,6 @@ title: Running a Debian Lenny DomU under a CentOS 5 Dom0
 date: 2009-02-26T13:30:06+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=290
 permalink: /running-a-debian-lenny-domu-under-a-centos-5-dom0
 categories:
   - Geek

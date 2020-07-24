@@ -4,14 +4,9 @@ title: 'ABC&#8217;s iView on XBMC.. update 1'
 date: 2009-04-15T13:05:58+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=317
 permalink: /abcs-iview-on-xbmc-update-1
-aktt_notify_twitter:
-  - 'no'
-categories:
-  - Geek
 ---
-<span style="color: #ff0000;">A plugin for ABC iView on XBMC has been released. See <a href="http://www.andybotting.com/wordpress/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.</span>
+A plugin for ABC iView on XBMC has been released. See <a href="/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.
 
 I&#8217;ve done a little bit of work since my last post on this, and a couple of people have asked for my stuff. Here goes.
 
@@ -134,4 +129,4 @@ This horrible command is getting the token, and stripping out all unncessesary c
 
 Most of this data came from doing **Wireshark** packet traces while working with the flash-based iView interface. Also important to note that the programs have an expiry date also. If the command above returns a &#8216;stream not found&#8217; message, you&#8217;ll probably need a newer episode.
 
-In the [next post](http://www.andybotting.com/wordpress/abcs-iview-on-xbmc-update-2), I&#8217;ll be posting the code for the XBMC plugin.
+In the [next post](/abcs-iview-on-xbmc-update-2), I&#8217;ll be posting the code for the XBMC plugin.

@@ -4,7 +4,6 @@ title: Using pkgutil on Solaris with Puppet for easy package management
 date: 2010-12-10T03:18:10+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=419
 permalink: /using-pkgutil-on-solaris-with-puppet-for-easy-package-management
 aktt_notify_twitter:
   - 'no'

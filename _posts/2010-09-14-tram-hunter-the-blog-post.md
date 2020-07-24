@@ -4,7 +4,6 @@ title: 'Tram Hunter: the blog post'
 date: 2010-09-14T19:02:00+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=400
 permalink: /tram-hunter-the-blog-post
 aktt_notify_twitter:
   - 'no'
@@ -20,7 +19,7 @@ I&#8217;m not sure what it is about Trams, but I&#8217;m almost enchanted by the
 A friend and I made a mashup of Google Maps with tram stops once, and using timetable information, we plotted approximated locations of trams along a line. The trams even moved along the line, although it wasn&#8217;t really realistic, it was fun to watch. I spoke to Yarra Trams about what we had done, and I was invited to come and see the Operations Centre in South Melbourne, which was quite interesting. They offered me a job working with their development team on some .NET/Windows web services stuff (which turned out to be the TramTracker service), but I just couldn&#8217;t leave [VPAC](http://www.vpac.org) at the time.
 
 <div id="attachment_402" style="width: 210px" class="wp-caption alignnone">
-  <a href="http://www.andybotting.com/wordpress/wp-content/uploads/tramhunter-stopdetails.png"><img class="size-medium wp-image-402" title="Tram Hunter Stop Details" src="http://www.andybotting.com/wordpress/wp-content/uploads/tramhunter-stopdetails-200x300.png" alt="Tram Hunter Stop Details" width="200" height="300" srcset="http://www.andybotting.com/wp-content/uploads/tramhunter-stopdetails-200x300.png 200w, http://www.andybotting.com/wp-content/uploads/tramhunter-stopdetails.png 320w" sizes="(max-width: 200px) 100vw, 200px" /></a>
+  <a href="/assets/images/tramhunter-stopdetails.png"><img class="size-medium wp-image-402" title="Tram Hunter Stop Details" src="/assets/images/tramhunter-stopdetails-200x300.png" alt="Tram Hunter Stop Details" width="200" height="300" srcset="/assets/images/tramhunter-stopdetails-200x300.png 200w, /assets/images/tramhunter-stopdetails.png 320w" sizes="(max-width: 200px) 100vw, 200px" /></a>
   
   <p class="wp-caption-text">
     Real Time Departures
@@ -28,7 +27,7 @@ A friend and I made a mashup of Google Maps with tram stops once, and using time
 </div>
 
 <div id="attachment_401" style="width: 210px" class="wp-caption alignnone">
-  <a href="http://www.andybotting.com/wordpress/wp-content/uploads/tramhunter-menu.png"><img class="size-medium wp-image-401" title="Tram Hunter Menu" src="http://www.andybotting.com/wordpress/wp-content/uploads/tramhunter-menu-200x300.png" alt="Tram Hunter Menu" width="200" height="300" srcset="http://www.andybotting.com/wp-content/uploads/tramhunter-menu-200x300.png 200w, http://www.andybotting.com/wp-content/uploads/tramhunter-menu.png 320w" sizes="(max-width: 200px) 100vw, 200px" /></a>
+  <a href="/assets/images/tramhunter-menu.png"><img class="size-medium wp-image-401" title="Tram Hunter Menu" src="/assets/images/tramhunter-menu-200x300.png" alt="Tram Hunter Menu" width="200" height="300" srcset="/assets/images/tramhunter-menu-200x300.png 200w, /assets/images/tramhunter-menu.png 320w" sizes="(max-width: 200px) 100vw, 200px" /></a>
   
   <p class="wp-caption-text">
     Application Menu
@@ -53,7 +52,7 @@ The latest stats from the Android Market show <span><strong>4325</strong></span>
 
 In version 0.4 of Tram Hunter, I introduced some code which (when only specifically enabled by the user) would send some usage information to a Google App Engine site I have set up. Tram Hunter will provide information about the user&#8217;s handset and Tram Hunter settings (e.g. What device is being used, what version of Tram Hunter is installed, which mobile network are we using, etc). It will also send information about which stops a user is requesting, and their location when they make the request.
 
-[<img class="size-medium wp-image-403" title="Melbourne Heat Map" src="http://www.andybotting.com/wordpress/wp-content/uploads/screenshot-test-mozilla-firefox-300x234.png" alt="Melbourne Heat Map" width="300" height="234" srcset="http://www.andybotting.com/wp-content/uploads/screenshot-test-mozilla-firefox-300x234.png 300w, http://www.andybotting.com/wp-content/uploads/screenshot-test-mozilla-firefox.png 997w" sizes="(max-width: 300px) 100vw, 300px" />](http://tramhunter.andybotting.com/stats/map/)
+[<img class="size-medium wp-image-403" title="Melbourne Heat Map" src="/assets/images/screenshot-test-mozilla-firefox-300x234.png" alt="Melbourne Heat Map" width="300" height="234" srcset="/assets/images/screenshot-test-mozilla-firefox-300x234.png 300w, /assets/images/screenshot-test-mozilla-firefox.png 997w" sizes="(max-width: 300px) 100vw, 300px" />](http://tramhunter.andybotting.com/stats/map/)
 
 I&#8217;m currently in the process of generating heat maps, to indicate the location of Tram Hunter requests. Unfortunately, the code isn&#8217;t finished so I can&#8217;t release them out in the open yet. I have some Google App Engine bit to sort out first, but I&#8217;ll be releasing all the interesting statistics to the Android community.
 

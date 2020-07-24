@@ -4,7 +4,6 @@ title: Automating Debian installs with Preseeding
 date: 2009-09-18T09:03:51+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=362
 permalink: /automating-debian-installs-with-preseeding
 aktt_notify_twitter:
   - 'no'

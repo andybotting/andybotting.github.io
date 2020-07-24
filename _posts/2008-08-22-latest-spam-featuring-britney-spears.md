@@ -4,7 +4,6 @@ title: Latest spam, featuring Britney Spears
 date: 2008-08-22T09:25:31+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=218
 permalink: /latest-spam-featuring-britney-spears
 categories:
   - Funny

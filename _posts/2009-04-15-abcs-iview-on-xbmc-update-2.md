@@ -4,16 +4,15 @@ title: 'ABC&#8217;s iView on XBMC.. update 2'
 date: 2009-04-15T13:27:03+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=328
 permalink: /abcs-iview-on-xbmc-update-2
 aktt_notify_twitter:
   - 'no'
 categories:
   - Geek
 ---
-<span style="color: #ff0000;">A plugin for ABC iView on XBMC has been released. See <a href="http://www.andybotting.com/wordpress/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.</span>
+A plugin for ABC iView on XBMC has been released. See <a href="/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.
 
-Following on from the [last post](http://www.andybotting.com/wordpress/abcs-iview-on-xbmc-update-1) about using rtmpdump to grab ABC&#8217;s iView programs, I&#8217;ve made a start on an XBMC plugin.. with the hope of eventually working on a Boxee plugin also.
+Following on from the [last post](/abcs-iview-on-xbmc-update-1) about using rtmpdump to grab ABC&#8217;s iView programs, I&#8217;ve made a start on an XBMC plugin.. with the hope of eventually working on a Boxee plugin also.
 
 To start with, you&#8217;ll need [my patch](http://www.andybotting.com/~andy/iview/abc-iview-rtmp-tcurl-fix.patch) to all you to specify the tcurl of an rtmp stream from with the XBMC API. This is needed because XBMC makes some assumptions about RTMP urls, based on other streams like Hulu and BBC&#8217;s iPlayer. ABC&#8217;s method is similar, but a little different. I&#8217;ll be trying to get the patch sent upstream, but it may need a little more work.
 
@@ -35,4 +34,4 @@ Last, the shows are all broadcasted in 16:9 on the TV, but streamed at 640&#215;
 
 It&#8217;s still very rough, but a start. Boxee has just announced a new API which I&#8217;ll be taking a look at shortly.
 
-**UPDATE:** Version 0.2 of the plugin is out. [See here](http://www.andybotting.com/wordpress/iview-for-xbmc-plugin-v02iview-for-xbmc-plugin-v02).
+**UPDATE:** Version 0.2 of the plugin is out. [See here](/iview-for-xbmc-plugin-v02iview-for-xbmc-plugin-v02).

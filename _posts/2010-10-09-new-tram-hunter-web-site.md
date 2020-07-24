@@ -4,7 +4,6 @@ title: New Tram Hunter web site
 date: 2010-10-09T21:12:08+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=410
 permalink: /new-tram-hunter-web-site
 aktt_notify_twitter:
   - 'no'

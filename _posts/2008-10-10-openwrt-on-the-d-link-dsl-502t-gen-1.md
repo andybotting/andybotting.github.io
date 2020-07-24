@@ -4,7 +4,6 @@ title: OpenWRT on the D-Link DSL-502T (Gen 1)
 date: 2008-10-10T13:52:58+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=224
 permalink: /openwrt-on-the-d-link-dsl-502t-gen-1
 aktt_notify_twitter:
   - 'no'

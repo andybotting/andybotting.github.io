@@ -4,14 +4,13 @@ title: Using the Yubikey for two-factor authentication on Linux
 date: 2010-05-20T22:47:30+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=373
 permalink: /using-the-yubikey-for-two-factor-authentication-on-linux
 aktt_notify_twitter:
   - 'no'
 categories:
   - Personal
 ---
-The Yubikey is a nice little device. It&#8217;s quite simple in design and operation. <img class="alignright size-full wp-image-388" title="Yubikey" src="http://www.andybotting.com/wordpress/wp-content/uploads/yubikey.jpg" alt="Yubikey" width="219" height="147" />
+The Yubikey is a nice little device. It&#8217;s quite simple in design and operation. <img class="alignright size-full wp-image-388" title="Yubikey" src="/assets/images/yubikey.jpg" alt="Yubikey" width="219" height="147" />
 
 The key actually emulating a USB keyboard, which makes it instantly usable on any modern OS. You just press the button on the key to generate a one-time-password (OTP) to validate you. The method works by typing in your password, but before hitting the return key, you press the Yubikey button to finish it off. At the end of the OTP generation, it sends a carriage return itself.
 

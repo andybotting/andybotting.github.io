@@ -4,7 +4,6 @@ title: Puppet filebucketing fail with NFS
 date: 2012-09-27T14:09:28+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=463
 permalink: /puppet-filebucketing-fail-with-nfs
 aktt_notify_twitter:
   - 'no'

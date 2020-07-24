@@ -4,14 +4,9 @@ title: ABC iView on XBMC/Boxee
 date: 2009-02-27T20:41:56+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=306
 permalink: /abc-iview-on-xbmcboxee
-aktt_notify_twitter:
-  - 'no'
-categories:
-  - Geek
 ---
-<span style="color: #ff0000;">A plugin for ABC iView on XBMC has been released. See <a href="http://www.andybotting.com/wordpress/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.</span>
+A plugin for ABC iView on XBMC has been released. See <a href="/using-abcs-iview-on-xbmc">this page</a> for progress of ABC iView on XBMC.
 
 I think it would be really neat to use ABC&#8217;s iView on the Xbox Media Centre (XBMC) and/or Boxee. Honestly, who really wants to watch TV on their computers? Haven&#8217;t we evolved from that now?
 
@@ -27,4 +22,4 @@ If anyone out there on the interwhizzle has worked this stuff out, I&#8217;d lov
   
 ](http://getsatisfaction.com/boxee/topics/add_abc_iview_for_australian_viewers) 
 
-**UPDATE 2:** I&#8217;ve uploaded a basic plugin for XBMC. See: [<span id="sample-permalink">http://www.andybotting.com/wordpress/<span id="editable-post-name" title="Click to edit this part of the permalink">iview-for-xbmc-plugin-v02</span></span>](http://www.andybotting.com/wordpress/iview-for-xbmc-plugin-v02) for more info.
+**UPDATE 2:** I&#8217;ve uploaded a basic plugin for XBMC. See: [<span id="sample-permalink">/<span id="editable-post-name" title="Click to edit this part of the permalink">iview-for-xbmc-plugin-v02</span></span>](/iview-for-xbmc-plugin-v02) for more info.

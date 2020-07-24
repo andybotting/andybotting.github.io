@@ -11,7 +11,7 @@ categories:
 ---
 I bought a cheap Micro USB (OTG) to USB hub with built-in Ethernet from Ebay for my Nexus Player. It seemed like the perfect way to make use of the single USB port available.
 
-[<img class="size-medium wp-image-1209 alignnone" style="border: 0px;" alt="micro-usb-ethernet-usb" src="http://www.andybotting.com/wp-content/uploads/micro-usb-ethernet-usb-300x300.jpg" width="300" height="300" srcset="http://www.andybotting.com/wp-content/uploads/micro-usb-ethernet-usb-300x300.jpg 300w, http://www.andybotting.com/wp-content/uploads/micro-usb-ethernet-usb-150x150.jpg 150w, http://www.andybotting.com/wp-content/uploads/micro-usb-ethernet-usb.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />](http://www.andybotting.com/wp-content/uploads/micro-usb-ethernet-usb.jpg)
+[<img class="size-medium wp-image-1209 alignnone" style="border: 0px;" alt="micro-usb-ethernet-usb" src="/assets/images/micro-usb-ethernet-usb-300x300.jpg" width="300" height="300" srcset="/assets/images/micro-usb-ethernet-usb-300x300.jpg 300w, /assets/images/micro-usb-ethernet-usb-150x150.jpg 150w, /assets/images/micro-usb-ethernet-usb.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />](/assets/images/micro-usb-ethernet-usb.jpg)
 
 Once I got it, I realised the Ethernet used a Davicom chipset and while it did have good Linux support with the dm9601 module, it wasn&#8217;t enabled in Android kernels.
 

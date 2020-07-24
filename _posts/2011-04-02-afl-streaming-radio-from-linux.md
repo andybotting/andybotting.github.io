@@ -4,7 +4,6 @@ title: AFL streaming radio from Linux
 date: 2011-04-02T21:45:52+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=430
 permalink: /afl-streaming-radio-from-linux
 aktt_notify_twitter:
   - 'no'

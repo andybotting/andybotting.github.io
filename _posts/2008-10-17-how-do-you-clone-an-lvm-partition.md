@@ -4,7 +4,6 @@ title: How do you clone an LVM partition?
 date: 2008-10-17T14:29:30+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=230
 permalink: /how-do-you-clone-an-lvm-partition
 categories:
   - Linux

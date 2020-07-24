@@ -4,7 +4,6 @@ title: Using libvirt with Xen on Debian Lenny
 date: 2009-04-02T15:14:23+00:00
 author: Andy Botting
 layout: post
-guid: http://www.andybotting.com/wordpress/?p=308
 permalink: /using-libvirt-with-xen-on-debian-lenny
 aktt_notify_twitter:
   - 'no'
@@ -47,7 +46,7 @@ The important part is that last line. You can actually just throw a path to the 
 `apt-get install virt-manager`
 
 <div id="attachment_310" style="width: 595px" class="wp-caption alignnone">
-  <img class="size-full wp-image-310" title="screenshot-virtual-machine-manager" src="http://www.andybotting.com/wordpress/wp-content/uploads/screenshot-virtual-machine-manager.png" alt="virt-manager" width="585" height="340" srcset="http://www.andybotting.com/wp-content/uploads/screenshot-virtual-machine-manager.png 585w, http://www.andybotting.com/wp-content/uploads/screenshot-virtual-machine-manager-300x174.png 300w" sizes="(max-width: 585px) 100vw, 585px" />
+  <img class="size-full wp-image-310" title="screenshot-virtual-machine-manager" src="/assets/images/screenshot-virtual-machine-manager.png" alt="virt-manager" width="585" height="340" srcset="/assets/images/screenshot-virtual-machine-manager.png 585w, /assets/images/screenshot-virtual-machine-manager-300x174.png 300w" sizes="(max-width: 585px) 100vw, 585px" />
   
   <p class="wp-caption-text">
     virt-manager running on a Debian Lenny Dom0
