@@ -1,0 +1,35 @@
+# Setup
+title: Andy Botting
+tagline: 'Blog-o-rama'
+description: 'Mostly tech notes'
+url: https://andybotting.com
+giturl: https://andybotting.github.io
+baseurl:
+rss: https://andybotting.github.io/atom.xml
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: pretty
+
+paginate: 10
+
+# About/contact
+author:
+  name: Andy Botting
+  github: andybotting
+  email: andy@andybotting.com
+  twitter: andybotting
+  gravatar_md5: e5444cbd1cbefb47a239994f52fbb3b9
+
+# Custom vars
+version: 1.0.0
+
+repository: https://github.com/andybotting/andybotting.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed

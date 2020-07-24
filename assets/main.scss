@@ -1,0 +1,107 @@
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+@import "bootstrap_customization";
+@import "typeahead";
+@import "font-awesome/fontawesome";
+@import "font-awesome/solid";
+
+@import "bootstrap-callouts";
+
+// Roboto (light, 300) and Roboto Condensed (light, 300)
+//@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+/* Force consistent style for console code */
+.language-console {
+  .highlight {
+    pre, code, span {
+      color: #fff;
+    }
+  }
+}
+
+body {
+  color: $dark;
+  line-height: 1.8rem;
+  // push footer to the bottom
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container-body {
+  margin-top: 4rem;
+  flex: 1; // push footer to the bottom
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.blah a {
+  color: inherit;
+  text-decoration: underline $red;
+  transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+
+  @include hover-focus {
+    color: $white;
+    text-decoration: inherit;
+    background: $red;
+  }
+}
+
+.mini-post-list, .mini-post .meta {
+  text-align: left
+}
+
+.mini-post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mini-post {
+  margin-bottom: 5rem
+}
+
+.mini-post-title {
+}
+
+.mini-post .meta {
+ padding-bottom: 0;
+ width: auto;
+}
+
+@media screen and (min-width: 640px) {
+  .mini-post .meta-date {
+    margin-right: 1.5rem;
+  }
+}
+
+.mini-post .meta-tag-list {
+  display: block;
+  text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+  .mini-post .meta-tag-list {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.post-body {
+  padding-top: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

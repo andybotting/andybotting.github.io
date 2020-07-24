@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{% include collection.html %}
+
+{% assign name = collection.label %}
+{% assign pages = site[name] | where_exp: "item", "item.order != null" | sort: "order" %}
+
+{% for link in pages %}
+  {% if link.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prev = tmpprev %}
+            {% endunless %}
+        {% unless forloop.last %}
+            {% assign next = pages[forloop.index] %}
+        {% endunless %}
+      {% endif %}
+  {% assign tmpprev = link %}
+{% endfor %}
+
+<div class="container py-3">
+
+    <div class="py-3 px-4 w-100">
+      <div class="d-flex justify-content-between align-items-center pb-2 mb-3 border-bottom">
+
+	    <h1 class="display-4">{{ collection.title }}</h1>
+
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group mr-2">
+            {% if prev -%}
+              <a href="{{ prev.url | prepend: site.baseurl }}" class="btn btn-sm btn-outline-primary" role="button">Previous</a>
+			{% else -%}
+              <a href="#" class="btn btn-sm btn-outline-primary disabled" role="button">Previous</a>
+			{% endif -%}
+            {% if next -%}
+              <a href="{{ next.url | prepend: site.baseurl }}" class="btn btn-sm btn-outline-primary" role="button">Next</a>
+			{% else -%}
+              <a href="#" class="btn btn-sm btn-outline-primary disabled" role="button">Next</a>
+			{% endif -%}
+          </div>
+        </div>
+      </div>
+
+      <div class="row w-100">
+        <div class="list-group col-md-3 sidebar d-none d-md-block px-2">
+          {% for item in pages -%}
+            {% if item.title != null -%}
+              {% if item.order != null -%}
+                <a href="{{ item.url | prepend: site.baseurl }}" class="list-group-item list-group-item-action{% if item.url == page.url %} active{% endif %}">
+                  <span>{{ item.order }}</span> {{ item.title }}
+                </a>
+              {% endif -%}
+            {% endif -%}
+          {% endfor -%}
+          <div class="p-2">
+            <p>Find a mistake? Let us know <a href="https://github.com/NeCTAR-RC/tutorials/issues/new">the issue here</a>.</p>
+          </div>	
+        </div>
+
+        <div class="md-content col-md-9 ml-sm-auto py-3 px-4">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div> <!-- row -->
+    </div>
+
+</div>

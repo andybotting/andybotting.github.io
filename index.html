@@ -1,0 +1,78 @@
+---
+layout: default
+title: Posts
+order: 0
+---
+
+<header class="site-header" role="banner">
+  <h1 class="site-title display-3">Posts</h1>
+</header>
+
+<main role="main">
+
+  <ul class="mini-post-list">
+    {% for post in paginator.posts %}
+    <li class="mini-post">
+      <h3 class="mini-post-title">
+        <a class="mini-post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p class="mini-post-teaser">
+        <article class="excerpt">{{ post.excerpt }}</article>
+      </p>
+      <div class="meta">
+        <time class="meta-date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+        </time>
+        <ul class="meta-tag-list">
+          {% for tag in posts.tags %}
+          <li class="meta-tag-item">
+            <a href="tag">tag</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+
+
+<nav>
+  <ul class="pagination justify-content-center">
+    {% if paginator.previous_page %}
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Previous</a>
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li class="page-item active">
+        <a class="page-link" href="#">{{ page }} <span class="sr-only">(current)</span></a>
+      </li>
+      {% elsif page == 1 %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+      </li>
+      {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Next</a>
+      </li>
+    {% else %}
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Next</a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+
+<p class="rss-subscribe">subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
